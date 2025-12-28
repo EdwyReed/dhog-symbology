@@ -16,6 +16,7 @@ export default {
         'navy': '#314c75',
         'gray-blue': '#6a7b8f',
         'terracotta': '#c87b5f',
+        'terracotta-pale': '#D4A46A',
         'cream': '#e8ddcc',
       },
       fontFamily: {
