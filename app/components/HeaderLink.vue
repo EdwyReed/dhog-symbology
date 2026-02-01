@@ -33,7 +33,7 @@ const props = defineProps<{
   to: string
 }>()
 
-const isHovered = ref(true)
+const isHovered = ref(false)
 const isActive = computed(() => route.path.includes(props.to))
 </script>
 
