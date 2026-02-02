@@ -10,7 +10,7 @@
     </nav>
 
     <!-- Lecture Content -->
-    <article class="lecture-content">
+    <article class="lecture-content text-justify">
       <!-- Title -->
       <h1 class="font-cormorant font-bold text-primary-blue text-title mb-4">
         Вводный блок. 3 лекция
@@ -22,27 +22,17 @@
       </h2>
 
       <!-- Opening -->
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Добро пожаловать на третью вводную лекцию,
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Добро пожаловать на третью вводную лекцию,</span>
         — Сайлас вновь громыхнул входной дверью, оповещая всех присутствующих: «вот он я: ваше спасение и ваша погибель». —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Сегодня мы рассмотрим то, ради чего, по-хорошему, и существует Симвология,
-      </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Сегодня мы рассмотрим то, ради чего, по-хорошему, и существует Симвология,</span>
         — он бросает взгляд на студентов, проверяя: живы ли. Вроде да. Хоть студентов и стало чуть меньше.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Вы можете запомнить хоть сотню символов. Можете выучить, что означает змея, круг, огонь, зеркало и почему сова — это мудрость, а не просто птица, которая смотрит на вас как на глупцов. Это полезно,
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Вы можете запомнить хоть сотню символов. Можете выучить, что означает змея, круг, огонь, зеркало и почему сова — это мудрость, а не просто птица, которая смотрит на вас как на глупцов. Это полезно,</span>
         — он кивает. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Но это не делает вас символогом.
+        <span class="font-extrabold">— Но это не делает вас символогом.</span>
       </p>
       <br/>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
@@ -60,14 +50,10 @@
         — мужчина задорно подмигивает студентам, восхищаясь своим остроумием и совсем капельку молясь, чтобы его не закидали гнильём.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Самая частая ошибка новичков — охота за «правильным значением». Символ — это не слово в словаре: открыл, ткнул пальцем, выписал перевод и пошёл дальше жить спокойно,
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Самая частая ошибка новичков — охота за «правильным значением». Символ — это не слово в словаре: открыл, ткнул пальцем, выписал перевод и пошёл дальше жить спокойно,</span>
         — Сайлас лишь разводит руками. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Я бы тоже так хотел, честно. Жизнь стала бы проще. Но имеем, что имеем.
+        <span class="font-extrabold">— Я бы тоже так хотел, честно. Жизнь стала бы проще. Но имеем, что имеем.</span>
       </p>
       <br/>
       <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
@@ -78,24 +64,16 @@
         — Вы можете смотреть на символ как на картинку. Тогда он и останется картинкой. А можете начать его читать: где он стоит, зачем он здесь, кому он адресован, что он делает.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — И вот тогда начинается самое приятное,
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— И вот тогда начинается самое приятное,</span>
         — он улыбается. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Магия. И немного головной боли. Но я рядом, не переживайте. По крайней мере на время, что я буду здесь преподавать.
+        <span class="font-extrabold">— Магия. И немного головной боли. Но я рядом, не переживайте. По крайней мере на время, что я буду здесь преподавать.</span>
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Знаете, что я слышу чаще всего? —
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Знаете, что я слышу чаще всего? —</span>
         Сайлас проходит вдоль первых парт, скрестив руки на груди. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — «Мне кажется…», «Я чувствую…», «Наверное, человек хотел…», «Я где-то видел…»
+        <span class="font-extrabold">— «Мне кажется…», «Я чувствую…», «Наверное, человек хотел…», «Я где-то видел…»</span>
       </p>
       <br/>
       <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
@@ -176,18 +154,11 @@
         Он постукивает мелом по доске.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Круг в детской тетради — упражнение. Круг на полу ритуального зала — схема. Круг на шее человека — знак. Круг, выжженный на внутренней стороне двери, которую никто не открывает…
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Круг в детской тетради — упражнение. Круг на полу ритуального зала — схема. Круг на шее человека — знак. Круг, выжженный на внутренней стороне двери, которую никто не открывает…</span>
         — он делает паузу и смотрит поверх очков. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Это уже повод не трогать руками и не строить догадки вслух.
-      </p>
-      <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Хотя вы всё равно будете. Я вас знаю.
+        <span class="font-extrabold">— Это уже повод не трогать руками и не строить догадки вслух.</span>
+        <span class="font-extrabold">— Хотя вы всё равно будете. Я вас знаю.</span>
       </p>
 
       <!-- Step 3 -->
@@ -227,14 +198,10 @@
         Он пишет отдельным словом: <span class="font-extrabold">ОБЕЩАНИЕ</span>
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Символ, который обещает, требует ответа. И если символ требует ответа — он берёт плату. Не всегда, но достаточно часто, чтобы вы запомнили это как правило. Ритуальные сигилы, клятвенные знаки, символы призыва — все они, и не только, работают по этому принципу. И плата — не всегда деньги. Иногда — внимание. Иногда — выбор. Иногда —
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Символ, который обещает, требует ответа. И если символ требует ответа — он берёт плату. Не всегда, но достаточно часто, чтобы вы запомнили это как правило. Ритуальные сигилы, клятвенные знаки, символы призыва — все они, и не только, работают по этому принципу. И плата — не всегда деньги. Иногда — внимание. Иногда — выбор. Иногда —</span>
         профессор делает много значительную паузу, указывая на слово на доске. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — жизнь, ваша либо чужая. Если не уверены, требует ли символ ответа, — не отвечайте.
+        <span class="font-extrabold">— жизнь, ваша либо чужая. Если не уверены, требует ли символ ответа, — не отвечайте.</span>
       </p>
 
       <!-- Step 4 -->
@@ -346,14 +313,10 @@
         Почему у символа может быть десять верных трактовок — и это нормально
       </h3>
 
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Я предупреждал вас,
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Я предупреждал вас,</span>
         — говорит он мягко. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Вы ещё пожалеете.
+        <span class="font-extrabold">— Вы ещё пожалеете.</span>
       </p>
       <br/>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
@@ -436,15 +399,11 @@
         Он останавливается у ближайшей парты.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Если ваша трактовка ничего не меняет, она пустая.<br/>
-        А если меняет слишком многое…
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Если ваша трактовка ничего не меняет, она пустая.<br/>
+        А если меняет слишком многое…</span>
         — Сайлас улыбается. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        поздравляю. Вы нашли символ, который кому-то захочется спрятать.
+        <span class="font-extrabold">поздравляю. Вы нашли символ, который кому-то захочется спрятать.</span>
       </p>
       <br/>
       <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">

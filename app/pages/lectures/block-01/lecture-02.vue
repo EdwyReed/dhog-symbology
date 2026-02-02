@@ -10,7 +10,7 @@
     </nav>
 
     <!-- Lecture Content -->
-    <article class="lecture-content">
+    <article class="lecture-content text-justify">
       <!-- Title -->
       <h1 class="font-cormorant font-bold text-primary-blue text-title mb-4">
         Вводный блок. 2 лекция
@@ -22,26 +22,16 @@
       </h2>
 
       <!-- Opening -->
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Приветствую всех на второй вводной лекции!
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Приветствую всех на второй вводной лекции!</span>
         — мужчина громко хлопнул в ладоши, закидывая ноги на преподавательский стол. Сегодня ему ленно шевелиться, а вот мел уже выписывает на доске название лекции. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — На прошлой лекции мы с вами кратенько…
-      </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— На прошлой лекции мы с вами кратенько…</span>
         — зыркнул на студентов поверх очков-пустышек. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Ладно, не кратенько, прошлись по основам символогии. Но это было необходимо! Вряд ли кто-то из вас любит, когда начинают липнуть без знакомства, вот и символы такие же… и то я вам многого не рассказал! Но ничего — будем всё постепенно навёрстывать.
+        <span class="font-extrabold">— Ладно, не кратенько, прошлись по основам символогии. Но это было необходимо! Вряд ли кто-то из вас любит, когда начинают липнуть без знакомства, вот и символы такие же… и то я вам многого не рассказал! Но ничего — будем всё постепенно навёрстывать.</span>
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Сегодня разберём виды символов. Чтобы вы перестали путать символ, знак и эмблему — и чтобы я перестал закатывать глаза каждый раз, когда вы называете герб «просто картинкой». Поверьте, были у меня такие младшие знакомые, повторять опыт не хочется,
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Сегодня разберём виды символов. Чтобы вы перестали путать символ, знак и эмблему — и чтобы я перестал закатывать глаза каждый раз, когда вы называете герб «просто картинкой». Поверьте, были у меня такие младшие знакомые, повторять опыт не хочется,</span>
         — по-доброму рассмеялся, щёлкнул пальцами и та самая потрёпанная книга оказалась сегодня под его лентяйской рукой.
       </p>
       <br/>
@@ -54,46 +44,24 @@
       </p>
       <br/>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
-        —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        О, отлично. Вот вы, да. Смелость вижу, разум пока под вопросом,
-      </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— О, отлично. Вот вы, да. Смелость вижу, разум пока под вопросом,</span>
         — Сайлас кивает слизеринцу.
       </p>
       <br/>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
-        —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Символ… это то, что означает что-то важное,
-      </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Символ… это то, что означает что-то важное,</span>
         — начинает тот. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        А знак… это… ну… обозначение. А эмблема… это…
+        <span class="font-extrabold">А знак… это… ну… обозначение. А эмблема… это…</span>
       </p>
       <br/>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
-        —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Это когда вы устали говорить и решили спасаться паузами?
-      </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Это когда вы устали говорить и решили спасаться паузами?</span>
         — мужчина мягко улыбается, явно сдерживая смешинку. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Продолжайте, вы почти у цели.
+        <span class="font-extrabold">Продолжайте, вы почти у цели.</span>
       </p>
       <br/>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
-        —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Эмблема — это… знак, который принадлежит группе?
+        <span class="font-extrabold">— Эмблема — это… знак, который принадлежит группе?</span>
       </p>
       <br/>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
@@ -104,19 +72,11 @@
         С другой стороны когтевранка подаёт голос:
       </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
-        —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Знак — это что-то понятное всем. А символ — это когда каждый понимает по-своему.
+        <span class="font-extrabold">— Знак — это что-то понятное всем. А символ — это когда каждый понимает по-своему.</span>
       </p>
       <br/>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
-        —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Прекрасно. И опасно,
-      </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Прекрасно. И опасно,</span>
         — намёк на выкрик с места. — Я бы даже сказал: добро пожаловать на курс, — Сайлас щёлкает пальцами, и мел пылит на доске, оставляя три слова: СИМВОЛ, ЗНАК, ЭМБЛЕМА.
       </p>
       <br/>
@@ -124,24 +84,18 @@
         — Итак, молодцы. А теперь закрепим, чтобы у нас не было путаницы:
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Символ
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">Символ</span>
         — это вещь, образ, событие, действие или мотив, который несёт смысл больше самого себя. Он не просто заменяет предмет, а «говорит» через него о чём-то большем. Символ живёт за счёт ассоциаций и поэтому часто многослойный: один и тот же образ может раскрывать разные смыслы в разных контекстах.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Знак
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">Знак</span>
         — это условная метка, которая нужна, чтобы быстро и ясно обозначить или сообщить что-то конкретное. Он может заменять предмет, действие, направление, предупреждение, событие. Главное: знак стремится к однозначности и удобству, а не к глубине.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Эмблема
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">Эмблема</span>
         — это закреплённый за группой знак или символ, который выполняет функцию узнавания и принадлежности. Она фиксирует идентичность: факультета, рода, организации, сообщества. В отличие от символа, эмблема обычно не требует широкого толкования — она должна быть стабильной и узнаваемой.
       </p>
       <br/>
@@ -173,10 +127,7 @@
       </h3>
 
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
-        —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Начнём с самого простого: с формы. То есть с того, как именно символ существует и как мы его воспринимаем. Глазами, слухом, словом, жестом — неважно. Важно другое: форма влияет на то, как символ работает.
+        <span class="font-extrabold">— Начнём с самого простого: с формы. То есть с того, как именно символ существует и как мы его воспринимаем. Глазами, слухом, словом, жестом — неважно. Важно другое: форма влияет на то, как символ работает.</span>
       </p>
 
       <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
@@ -259,33 +210,19 @@
       </p>
       <br/>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
-        —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Хороший пример. Спасибо.
+        <span class="font-extrabold">— Хороший пример. Спасибо.</span>
       </p>
       <br/>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
-        —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Но это всё равно просто правило этикета,
-      </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Но это всё равно просто правило этикета,</span>
         — вмешался когтевранец с задних рядов. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Жест с заранее понятным смыслом.
+        <span class="font-extrabold">Жест с заранее понятным смыслом.</span>
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Да. В одном случае — правило, а в другом — смысл становится тяжелее. И люди это чувствуют,
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Да. В одном случае — правило, а в другом — смысл становится тяжелее. И люди это чувствуют,</span>
         — преподаватель коротко постучал пальцем по столу. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Вот на этом и держится разница. Не в движении, а в том, что за ним стоит.
+        <span class="font-extrabold">— Вот на этом и держится разница. Не в движении, а в том, что за ним стоит.</span>
       </p>
 
       <hr class="my-8 border-t-2 border-terracotta opacity-20" />
@@ -296,10 +233,7 @@
       </h3>
 
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
-        —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Хорошо. С формой разобрались. Теперь давайте поговорим о том, где символ живёт. То есть на чём он закреплён: на щите, на камне, на коже, в тексте, в ритуале, в истории. Это важно, потому что носитель задаёт символу характер. Один и тот же символ на пергаменте и на воротах замка будет ощущаться совершенно по-разному.
+        <span class="font-extrabold">— Хорошо. С формой разобрались. Теперь давайте поговорим о том, где символ живёт. То есть на чём он закреплён: на щите, на камне, на коже, в тексте, в ритуале, в истории. Это важно, потому что носитель задаёт символу характер. Один и тот же символ на пергаменте и на воротах замка будет ощущаться совершенно по-разному.</span>
       </p>
 
       <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
@@ -585,7 +519,7 @@
       </p>
 
       <!-- Homework Section -->
-      <div class="homework-section mt-12">
+      <div class="homework-section mt-12 text-left">
         <h3 class="font-cormorant font-bold italic text-xl lg:text-2xl text-terracotta mb-6">
           Основное домашнее задание:
         </h3>
@@ -627,7 +561,7 @@
       </div>
 
       <!-- Additional Homework Section -->
-      <div class="homework-section mt-12">
+      <div class="homework-section mt-12 text-left">
         <h3 class="font-cormorant font-bold italic text-xl lg:text-2xl text-terracotta mb-6">
           Дополнительное домашнее задание:
         </h3>

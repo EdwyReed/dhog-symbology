@@ -36,7 +36,7 @@ export default {
       },
       maxWidth: {
         'content': '83.75rem',
-        'text-column': '47rem',
+        'text-column': '70rem',
         'title': '43.5rem',
         'image-caption': '18rem',
       },

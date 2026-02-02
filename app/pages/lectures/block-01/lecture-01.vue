@@ -4,13 +4,13 @@
     <nav class="mb-6 font-manrope text-sm text-gray-blue">
       <NuxtLink to="/lectures" class="hover:text-terracotta">Лекции</NuxtLink>
       <span class="mx-2">/</span>
-      <span class="text-navy font-semibold">Вводный блок</span>
+      <NuxtLink to="/lectures" class="hover:text-terracotta">Вводный блок</NuxtLink>
       <span class="mx-2">/</span>
       <span class="text-navy font-semibold">Лекция 1</span>
     </nav>
 
     <!-- Lecture Content -->
-    <article class="lecture-content">
+    <article class="lecture-content text-justify">
       <!-- Title -->
       <h1 class="font-cormorant font-bold text-primary-blue text-title mb-4">
         Вводный блок. 1 лекция
@@ -34,40 +34,26 @@
         Дверь в кабинет он открывает с ноги. Та с грохотом бьётся о стену, несколько студентов вздрагивают. Сайлас этого не замечает или не считает нужным замечать. Он проходит внутрь, неся в руках потрёпанный чумоданчик, исписанный разными символами, и сразу направляется к кафедре, кладя на неё чумодан. Крышка чуть приоткрывается, выпуская лёгкое мерцание изнутри. Профессор спешно захлопывает её и усмехается.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Ах, это не то, о чём вы подумали. Просто… учебные материалы. Добро пожаловать на курс Символогии! Меня зовут Сайлас Локк,
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Ах, это не то, о чём вы подумали. Просто… учебные материалы. Добро пожаловать на курс Символогии! Меня зовут Сайлас Локк,</span>
         — он разворачивается к студентам, обводя всех счастливым взглядом.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Многие из вас слышали о рунах, гербах, алхимических знаках, видели магические печати на дверях или старинных артефактах. Но всё это лишь части одной огромной системы. Эта система — язык магии, и на нём построено больше, чем вам кажется.
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Заклинание, слово, жест — это всё символы. Даже сама магическая палочка — символ в руках мага. Символы — это не украшения, как некоторые могут подумать. Это негласные правила, на которых держится наш волшебный мир, друзья!
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold"> — Многие из вас слышали о рунах, гербах, алхимических знаках, видели магические печати на дверях или старинных артефактах. Но всё это лишь части одной огромной системы. Эта система — язык магии, и на нём построено больше, чем вам кажется.
+        Заклинание, слово, жест — это всё символы. Даже сама магическая палочка — символ в руках мага. Символы — это не украшения, как некоторые могут подумать. Это негласные правила, на которых держится наш волшебный мир, друзья!</span>
         — мужчина делает паузу. Осторожно заглядывая в чумодан, вытаскивает старую книгу с потёртой обложкой и кладёт её на кафедру.
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Я обожаю это вступление. Каждый раз, когда я его произношу, мне хочется спросить: а что, если мы все с вами тоже символы?
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Я обожаю это вступление. Каждый раз, когда я его произношу, мне хочется спросить: а что, если мы все с вами тоже символы?</span>
         — он смеётся, качает головой.
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Но оставим философию на потом.
+        <span class="font-extrabold">— Но оставим философию на потом.</span>
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — К слову, забавная деталь,
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— К слову, забавная деталь,</span>
         — Сайлас усмехается. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Некоторые маглы подходили к этому пониманию опасно близко. Один из них, Чарльз Пирс, делил знаки на те, что похожи на объект, те, что связаны с ним напрямую и те, что работают только по соглашению. Чем дольше символ живёт, тем глубже он проникает в того, кто его понимает. Если говорить проще: символ привязывается к мышлению мага.
+        <span class="font-extrabold">Некоторые маглы подходили к этому пониманию опасно близко. Один из них, Чарльз Пирс, делил знаки на те, что похожи на объект, те, что связаны с ним напрямую и те, что работают только по соглашению. Чем дольше символ живёт, тем глубже он проникает в того, кто его понимает. Если говорить проще: символ привязывается к мышлению мага.</span>
       </p>
 
       <!-- Section: Что такое Симвология? -->
@@ -137,14 +123,10 @@
         — Или наоборот? Нет, нет… правильно сказал. Иногда путаюсь, когда рассказываю о различиях, но знаете, в этом и есть прелесть Символогии: символы всегда больше, чем одно определение.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Был один магл, Фердинанд де Соссюр. Он терпеть не мог, когда язык путали с символами,
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Был один магл, Фердинанд де Соссюр. Он терпеть не мог, когда язык путали с символами,</span>
         — он пишет на доске пару слов, затем стирает одно из них. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Уберите один знак — остальные мгновенно начнут значить другое. Ничего не рухнет, просто система подвинется.
+        <span class="font-extrabold">— Уберите один знак — остальные мгновенно начнут значить другое. Ничего не рухнет, просто система подвинется.</span>
       </p>
       <br/>
       <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
@@ -199,14 +181,10 @@
         Заседания Визенгамота затягивались, приговоры пересматривались, а один из залов вообще пришлось временно закрыть: никто не мог договориться, где у него вход, а где выход. Формально — никаких нарушений. Символ ничего не делал. Он просто напоминал, что любая система имеет замок. И любой замок — ключ.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        Герб запретили. Официальная формулировка: «избыточная семантическая нагрузка». Проще говоря, символ значил слишком много. Неофициально…
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">Герб запретили. Официальная формулировка: «избыточная семантическая нагрузка». Проще говоря, символ значил слишком много. Неофициально…</span>
         — он пожимает плечами. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Министерство не любит символы, которые заставляют думать слишком долго и много.
+        <span class="font-extrabold">— Министерство не любит символы, которые заставляют думать слишком долго и много.</span>
       </p>
 
       <!-- Section: Где встречаются символы -->
@@ -266,21 +244,15 @@
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
         Он задумчиво смотрит на символ, тихо хмыкает, потом стирает его рукавом мантии.
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — Всем спасибо за внимание,
-      </p>
       <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— Всем спасибо за внимание,</span>
         — книга захлопывается сама, ударяясь эхом о стены. —
-      </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
-        — На этом всё. Запишите домашнее задание и идите, прежде чем символы начнут смотреть на вас,
-      </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+        <span class="font-extrabold">— На этом всё. Запишите домашнее задание и идите, прежде чем символы начнут смотреть на вас,</span>
         — добрая усмешка украшает лицо мужчины. Он взмахивает палочкой и на доске появляются задания.
       </p>
 
       <!-- Homework Section -->
-      <div class="homework-section mt-12">
+      <div class="homework-section mt-12 text-left">
         <h3 class="font-cormorant font-bold italic text-xl lg:text-2xl text-terracotta mb-6">
           Основное домашнее задание:
         </h3>
@@ -321,7 +293,7 @@
       </div>
 
       <!-- Additional Homework Section -->
-      <div class="homework-section mt-12">
+      <div class="homework-section mt-12 text-left">
         <h3 class="font-cormorant font-bold italic text-xl lg:text-2xl text-terracotta mb-6">
           Дополнительное домашнее задание:
         </h3>
