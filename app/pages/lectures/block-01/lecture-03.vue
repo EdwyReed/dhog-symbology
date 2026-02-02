@@ -461,7 +461,7 @@
         to="/lectures/block-01/lecture-02"
         class="font-manrope font-semibold text-terracotta hover:text-terracotta-pale"
       >
-        ← Предыдущая лекция
+        ← Пред. лекция
       </NuxtLink>
     </nav>
   </div>

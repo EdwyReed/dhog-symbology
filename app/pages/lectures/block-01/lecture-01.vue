@@ -352,7 +352,7 @@
         to="/lectures/block-01/lecture-02"
         class="font-manrope font-semibold text-terracotta hover:text-terracotta-pale ml-auto"
       >
-        Следующая лекция →
+        След. лекция →
       </NuxtLink>
     </nav>
   </div>

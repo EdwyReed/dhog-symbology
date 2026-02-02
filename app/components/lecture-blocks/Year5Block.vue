@@ -1,5 +1,6 @@
 <template>
   <LectureBlocksLectureBlockBase
+    class="opacity-50 pointer-events-none"
     title="Для изучения с 5 курса"
     :title-image="titleImage"
   >
@@ -18,9 +19,9 @@ interface Props {
 defineProps<Props>()
 
 const lectures = [
-  'Знакомство с Символогией',
-  'авщлиоьщшаоли',
-  'вапртиаткепыот',
-  'ыптиыенпаоь'
+  'В разработке',
+  'В разработке',
+  'В разработке',
+  'В разработке'
 ]
 </script>

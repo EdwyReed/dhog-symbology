@@ -1,5 +1,6 @@
 <template>
   <LectureBlocksLectureBlockBase
+    class="opacity-50 pointer-events-none"
     title="Для изучения с 3 курса"
     :title-image="titleImage"
   >
@@ -8,7 +9,7 @@
       :start="1"
     />
     <LectureBlocksLectureDivider
-      text="ПРАКТИЧЕСКАЯ РАБОТА №2"
+      text="Практическая работа №2"
       variant="practical"
     />
     <LectureBlocksLectureList
@@ -26,18 +27,18 @@ interface Props {
 defineProps<Props>()
 
 const firstSection = [
-  'Знакомство с Символогией',
-  'авщлиоьщшаоли',
-  'вапртиаткепыот',
-  'ыптиыенпаоь'
+  'В разработке',
+  'В разработке',
+  'В разработке',
+  'В разработке'
 ]
 
 const secondSection = [
-  'феарикеолцнль',
-  'епыотыпрнаельоынрглдб',
-  'куяфояаыьоыфь',
-  'ефрыекяоакяеп',
-  'кфытоакьыаапеьто',
-  'ыакнльыеапнрьлыепрнль'
+  'В разработке',
+  'В разработке',
+  'В разработке',
+  'В разработке',
+  'В разработке',
+  'В разработке'
 ]
 </script>

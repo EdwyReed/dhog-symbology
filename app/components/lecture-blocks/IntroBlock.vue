@@ -12,7 +12,7 @@
         >
           {{ lecture.title }}
         </NuxtLink>
-        <span v-else class="opacity-50 cursor-not-allowed">
+        <span v-else class="opacity-50 pointer-events-none">
           {{ lecture.title }}
         </span>
       </li>

@@ -1,7 +1,11 @@
 <template>
   <NuxtLink
     class="relative no-underline text-navy shrink-0 transition-colors"
-    :class="isActive ? 'active' : 'hover:text-terracotta-pale'"
+    :class="{
+      'active': isActive,
+      'hover:text-terracotta-pale': !isActive,
+      'pointer-events-none opacity-50': disabled
+    }"
     :to="to"
     @mouseenter="isHovered = true"
     @mouseleave="isHovered = false"
@@ -30,7 +34,8 @@
 <script setup lang="ts">
 const route = useRoute()
 const props = defineProps<{
-  to: string
+  to: string,
+  disabled?: boolean
 }>()
 
 const isHovered = ref(false)

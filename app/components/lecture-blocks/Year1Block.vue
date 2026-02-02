@@ -1,5 +1,6 @@
 <template>
   <LectureBlocksLectureBlockBase
+    class="opacity-50 pointer-events-none"
     title="Для изучения с 1 курса"
     :title-image="titleImage"
   >
@@ -8,7 +9,7 @@
       :start="1"
     />
     <LectureBlocksLectureDivider
-      text="ПРАКТИЧЕСКАЯ РАБОТА №1"
+      text="Практическая работа №1"
       variant="practical"
     />
     <LectureBlocksLectureList
@@ -16,7 +17,7 @@
       :start="5"
     />
     <LectureBlocksLectureDivider
-      text="КОНТРОЛЬНАЯ РАБОТА №2"
+      text="Контрольная работа №2"
       variant="control"
     />
   </LectureBlocksLectureBlockBase>
@@ -30,14 +31,14 @@ interface Props {
 defineProps<Props>()
 
 const firstSection = [
-  'еотпнроылнерль',
-  'етирыпанеьтонрель',
-  'кавеытоныеот',
-  'яепкотныльонельо'
+  'В разработке',
+  'В разработке',
+  'В разработке',
+  'В разработке'
 ]
 
 const secondSection = [
-  'щшзвлаопьмизщшрапое',
-  'щкполшмзщшдшо'
+  'В разработке',
+  'В разработке'
 ]
 </script>

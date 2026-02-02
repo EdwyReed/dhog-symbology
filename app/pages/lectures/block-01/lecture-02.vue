@@ -594,13 +594,13 @@
         to="/lectures/block-01/lecture-01"
         class="font-manrope font-semibold text-terracotta hover:text-terracotta-pale"
       >
-        ← Предыдущая лекция
+        ← Пред. лекция
       </NuxtLink>
       <NuxtLink
         to="/lectures/block-01/lecture-03"
         class="font-manrope font-semibold text-terracotta hover:text-terracotta-pale ml-auto"
       >
-        Следующая лекция →
+        След. лекция →
       </NuxtLink>
     </nav>
   </div>
