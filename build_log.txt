@@ -1,0 +1,27 @@
+[90m[[90mnuxi[90m][39m [32mNuxt [1m4.2.1[22m[39m[90m (with [39m[90mNitro [1m2.12.9[22m[39m[90m, Vite [1m7.2.4[22m[39m[90m and Vue [1m3.5.25[22m[39m[90m)[39m
+[90m[[90mnuxi[90m][39m [36mΓä╣[39m Building for Nitro preset: [36mnode-server[39m
+
+ WARN  [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: npm i baseline-browser-mapping@latest -D
+
+[36mΓä╣[39m Building client...
+[36mΓä╣[39m [36mvite v7.2.4 [32mbuilding client environment for production...[36m[39m
+[36mΓä╣[39m transforming...
+[36mΓä╣[39m [32mΓ£ô[39m 132 modules transformed.
+
+ ERROR  Γ£ù Build failed in 1.35s
+
+
+[nuxi]  ERROR  Nuxt Build Error: [@tailwindcss/vite:generate:build] Could not resolve value for theme function: theme(colors.terracotta). Consider checking if the path is correct or provide a fallback value to silence this error.
+file: E:/Personal/dhog-symbology/app/components/HeaderLink.vue?vue&type=style&index=0&scoped=942398e5&lang.css
+
+    at Object.kn [as theme] (/E:/Personal/dhog-symbology/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:13:4834)
+    at /E:/Personal/dhog-symbology/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:13:5515
+    at br (/E:/Personal/dhog-symbology/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:3:1718)
+    at I (/E:/Personal/dhog-symbology/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:3:1377)
+    at Lr (/E:/Personal/dhog-symbology/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:13:5407)
+    at /E:/Personal/dhog-symbology/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:13:5179
+    at br (/E:/Personal/dhog-symbology/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:3:1718)
+    at I (/E:/Personal/dhog-symbology/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:3:1377)
+    at De (/E:/Personal/dhog-symbology/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:13:5104)
+    at Wi (/E:/Personal/dhog-symbology/node_modules/tailwindcss/dist/chunk-CT46QCH7.mjs:38:283)
+

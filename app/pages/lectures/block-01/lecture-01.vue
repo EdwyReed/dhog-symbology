@@ -1,7 +1,6 @@
 <template>
-  <div class="max-w-text-column mx-auto px-4 py-8 lg:py-12">
-    <!-- Breadcrumb Navigation -->
-    <nav class="mb-6 font-manrope text-sm text-gray-blue">
+  <div class="lecture-container">
+    <nav class="breadcrumb-nav">
       <NuxtLink to="/lectures" class="hover:text-terracotta">Лекции</NuxtLink>
       <span class="mx-2">/</span>
       <NuxtLink to="/lectures" class="hover:text-terracotta">Вводный блок</NuxtLink>
@@ -9,136 +8,128 @@
       <span class="text-navy font-semibold">Лекция 1</span>
     </nav>
 
-    <!-- Lecture Content -->
     <article class="lecture-content text-justify">
-      <!-- Title -->
-      <h1 class="font-cormorant font-bold text-primary-blue text-title mb-4">
+      <h1 class="lecture-title">
         Вводный блок. 1 лекция
       </h1>
-
-      <!-- Subtitle -->
-      <h2 class="font-cormorant font-bold text-2xl lg:text-3xl text-navy mb-title-gap">
+      <h2 class="lecture-h2">
         Знакомство с Символогией
       </h2>
 
-      <!-- Introduction -->
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Кабинет Символогии наконец был готов принимать студентов. Не идеально — кое-где оставались недоделки, коробки с так и не разобранным содержимым, временные решения, которые Сайлас пометил для себя как «потом». Он работал над этим помещением несколько месяцев и знал: руки до остального когда-нибудь дойдут. Не сегодня.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Ночью он почти не спал. Половину времени — из-за усталости, вторую половину — из-за ожидания первой лекции. В какой-то момент он даже всерьёз прокрутил сценарий, в котором никто не приходит, и ему снова приходится вести дебаты со стенами. Его это не пугало — стены, по крайней мере, не перебивают. Но живых слушателей всё-таки не хватало.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Дверь в кабинет он открывает с ноги. Та с грохотом бьётся о стену, несколько студентов вздрагивают. Сайлас этого не замечает или не считает нужным замечать. Он проходит внутрь, неся в руках потрёпанный чумоданчик, исписанный разными символами, и сразу направляется к кафедре, кладя на неё чумодан. Крышка чуть приоткрывается, выпуская лёгкое мерцание изнутри. Профессор спешно захлопывает её и усмехается.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Ах, это не то, о чём вы подумали. Просто… учебные материалы. Добро пожаловать на курс Символогии! Меня зовут Сайлас Локк,</span>
         — он разворачивается к студентам, обводя всех счастливым взглядом.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold"> — Многие из вас слышали о рунах, гербах, алхимических знаках, видели магические печати на дверях или старинных артефактах. Но всё это лишь части одной огромной системы. Эта система — язык магии, и на нём построено больше, чем вам кажется.
         Заклинание, слово, жест — это всё символы. Даже сама магическая палочка — символ в руках мага. Символы — это не украшения, как некоторые могут подумать. Это негласные правила, на которых держится наш волшебный мир, друзья!</span>
         — мужчина делает паузу. Осторожно заглядывая в чумодан, вытаскивает старую книгу с потёртой обложкой и кладёт её на кафедру.
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Я обожаю это вступление. Каждый раз, когда я его произношу, мне хочется спросить: а что, если мы все с вами тоже символы?</span>
         — он смеётся, качает головой.
         <span class="font-extrabold">— Но оставим философию на потом.</span>
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— К слову, забавная деталь,</span>
         — Сайлас усмехается. —
         <span class="font-extrabold">Некоторые маглы подходили к этому пониманию опасно близко. Один из них, Чарльз Пирс, делил знаки на те, что похожи на объект, те, что связаны с ним напрямую и те, что работают только по соглашению. Чем дольше символ живёт, тем глубже он проникает в того, кто его понимает. Если говорить проще: символ привязывается к мышлению мага.</span>
       </p>
 
-      <!-- Section: Что такое Симвология? -->
-      <h3 class="font-cormorant font-bold text-xl lg:text-2xl text-navy mt-8 mb-4">
+      <h3 class="lecture-h3">
         Что такое Симвология?
       </h3>
 
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Мужчина начинает мерить шагами аудиторию, на ходу загибая пальцы поднятой руки.
       </p>
       <br/>
       <p class="font-manrope italic text-gray-blue text-body leading-normal mb-0">
         Симвология — это наука о магических символах, их значениях, силе и применении.
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Она сочетает в себе:
       </p>
       <br/>
-      <ul class="list-disc ml-6 md:ml-8 font-manrope text-gray-blue text-body space-y-1">
+      <ul class="list-unordered">
         <li>семиотику (науку о знаках и знаковых системах)</li>
         <li>историю магии (ведь каждый символ рождается в культуре)</li>
         <li>магическую практику (где символы работают напрямую)</li>
       </ul>
 
-      <!-- Section: Чем Симвология отличается от других дисциплин -->
-      <h3 class="font-cormorant font-bold text-xl lg:text-2xl text-navy mt-8 mb-4">
+      <h3 class="lecture-h3">
         Чем Симвология отличается от других дисциплин
       </h3>
 
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Некоторые из вас, наверняка, задаются вопросом: «А чем она лучше Рунологии или Нумерологии?»
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         От Рунологии:
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         там изучают конкретную систему рунической письменности. В Символогии — руны лишь частный случай;
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         От Нумерологии:
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         числа — это тоже символы, но лишь один из разделов;
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         От Защиты от тёмных искусств:
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         там учат применять защитные чары, здесь мы изучаем саму природу печатей и магических знаков;
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         От Истории магии:
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         историки фиксируют факты, а мы работаем с живой силой символов.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — И да… вы ещё пожалеете, когда я заставлю вас разбирать один-единственный символ на десять, а то и двадцать трактовок. Причём все они будут верными. Вопрос будет только в том, какая из них вас переживёт.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Профессор замирает на мгновение, морщит лоб, а затем широкими шагами возвращается к книге.
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Или наоборот? Нет, нет… правильно сказал. Иногда путаюсь, когда рассказываю о различиях, но знаете, в этом и есть прелесть Символогии: символы всегда больше, чем одно определение.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Был один магл, Фердинанд де Соссюр. Он терпеть не мог, когда язык путали с символами,</span>
         — он пишет на доске пару слов, затем стирает одно из них. —
         <span class="font-extrabold">— Уберите один знак — остальные мгновенно начнут значить другое. Ничего не рухнет, просто система подвинется.</span>
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — А вот символы он в язык не пускал. Говорил, что с ними слишком много хлопот. Их нельзя просто стереть и заменить. Они имеют дурную привычку напоминать о себе — даже когда вы уверены, что давно о них забыли. Но если бы символы всегда вели себя так послушно, мне не пришлось бы читать вам этот курс.
       </p>
 
-      <!-- Section: Основные законы Символогии -->
-      <h3 class="font-cormorant font-bold text-xl lg:text-2xl text-navy mt-8 mb-4">
+      <h3 class="lecture-h3">
         Основные законы Символогии
       </h3>
 
-      <ol class="list-decimal ml-6 md:ml-8 font-manrope text-gray-blue text-body space-y-2">
+      <ol class="list-ordered">
         <li>
           <span class="font-extrabold">Смысл = сила.</span> Символ работает только тогда, когда маг его понимает. Незнание лишает силы.<br/>
           Символ без понимания либо:
@@ -155,44 +146,43 @@
         </li>
       </ol>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Пирс однажды написал, что знак живёт только в момент интерпретации. Мы, маги, знаем: иногда этого момента достаточно, чтобы всё пошло не так. Некоторые символы не ждут, пока вы их поймёте. Но поверьте — вам лучше понять их раньше, чем они начнут работать.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Сайлас постукивает по книге, и та сама собой перелистывает несколько страниц.
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Именно поэтому Министерство Магии пристально следит за Символогией. Да, да, не удивляйтесь! Существует даже особый Отдел по контролю за магическими символами, печатями и прочим. Они проверяют гербы, алхимические книги, ведут реестр запрещённых символов.
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — В XVIII веке, например, Министерство внезапно изъяло из обращения один, казалось бы, безобидный герб. Всего лишь серебряный ключ на синем поле. Никаких проклятий, никакой тёмной магии. Но проблема была в другом.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         Этот ключ ничего не открывал. Зато обозначал возможность открыть.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         И чем дольше герб использовался — на письмах, печатях, дверях залов заседаний, — тем чаще люди начинали… сомневаться: в решениях, в приказах, в границах дозволенного.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         Заседания Визенгамота затягивались, приговоры пересматривались, а один из залов вообще пришлось временно закрыть: никто не мог договориться, где у него вход, а где выход. Формально — никаких нарушений. Символ ничего не делал. Он просто напоминал, что любая система имеет замок. И любой замок — ключ.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">Герб запретили. Официальная формулировка: «избыточная семантическая нагрузка». Проще говоря, символ значил слишком много. Неофициально…</span>
         — он пожимает плечами. —
         <span class="font-extrabold">— Министерство не любит символы, которые заставляют думать слишком долго и много.</span>
       </p>
 
-      <!-- Section: Где встречаются символы -->
-      <h3 class="font-cormorant font-bold text-xl lg:text-2xl text-navy mt-8 mb-4">
+      <h3 class="lecture-h3">
         Где встречаются символы
       </h3>
 
-      <ul class="list-disc ml-6 md:ml-8 font-manrope text-gray-blue text-body space-y-1">
+      <ul class="list-unordered">
         <li>На гербах</li>
         <li>В архитектуре замков, храмов, защитных барьеров</li>
         <li>В алхимических рецептах</li>
@@ -200,64 +190,62 @@
         <li>Во снах — это образы, которые нельзя воспроизвести словами</li>
       </ul>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Профессор мечтательно улыбается:
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Ах, сны… Я видел однажды символ, который до сих пор не могу описать. И знаете, что? Я уверен, что именно он привёл меня в Символогию.
       </p>
 
-      <!-- Section: Роль Символогии в жизни мага -->
-      <h3 class="font-cormorant font-bold text-xl lg:text-2xl text-navy mt-8 mb-4">
+      <h3 class="lecture-h3">
         Роль Символогии в жизни мага
       </h3>
 
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         Понимание:
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         знать, что символ значит, чтобы не попасть в ловушку;
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         Созидание:
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         создавать свои собственные печати, амулеты, сигилы и прочее;
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         Власть:
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         использовать знание символов для контроля над артефактами, порталами, даже над эмоциями.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Один мой знакомый сказал: «Тот, кто понимает символы, владеет магией глубже, чем тот, кто просто машет палочкой». И я полностью согласен с этим высказыванием.
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Локк берёт мел и чертит на доске витиеватую фигуру.
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — И помните: символы окружают вас повсюду. Даже сейчас вы сидите в зале, стены которого расписаны знаками, что были начертаны столетия назад. Некоторые из них давно потеряли свой смысл, а значит — и силу. Но будьте осторожны: не каждый символ мёртв, даже если кажется забытым.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Он задумчиво смотрит на символ, тихо хмыкает, потом стирает его рукавом мантии.
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Всем спасибо за внимание,</span>
         — книга захлопывается сама, ударяясь эхом о стены. —
         <span class="font-extrabold">— На этом всё. Запишите домашнее задание и идите, прежде чем символы начнут смотреть на вас,</span>
         — добрая усмешка украшает лицо мужчины. Он взмахивает палочкой и на доске появляются задания.
       </p>
 
-      <!-- Homework Section -->
       <div class="homework-section mt-12 text-left">
-        <h3 class="font-cormorant font-bold italic text-xl lg:text-2xl text-terracotta mb-6">
+        <h3 class="homework-title">
           Основное домашнее задание:
         </h3>
 
-        <ol class="list-decimal ml-6 md:ml-8 font-manrope text-gray-blue text-body space-y-4">
+        <ol class="list-ordered">
           <li class="mb-4">
             <span class="font-extrabold text-terracotta">до 4 баллов</span> — Представьте, что неопытный маг скопировал символ, не понимая его смысла.<br/>
             Опишите:
@@ -292,13 +280,12 @@
         </ol>
       </div>
 
-      <!-- Additional Homework Section -->
       <div class="homework-section mt-12 text-left">
-        <h3 class="font-cormorant font-bold italic text-xl lg:text-2xl text-terracotta mb-6">
+        <h3 class="homework-title">
           Дополнительное домашнее задание:
         </h3>
 
-        <ol class="list-decimal ml-6 md:ml-8 font-manrope text-gray-blue text-body space-y-4">
+        <ol class="list-ordered">
           <li class="mb-4">
             <span class="font-extrabold text-terracotta">до 20 баллов</span> — Эссе: «Смысл = сила. А если нет?»<br/>
             Размышление, спор, несогласие приветствуются.<br/>
@@ -346,7 +333,6 @@
       </div>
     </article>
 
-    <!-- Prev/Next Navigation -->
     <nav class="mt-12 pt-8 border-t border-terracotta/20 flex justify-between">
       <NuxtLink
         to="/lectures/block-01/lecture-02"

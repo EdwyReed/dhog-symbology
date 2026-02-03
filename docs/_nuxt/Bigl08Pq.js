@@ -1,1 +1,0 @@
-import{_ as r}from"./DlAUqK2U.js";import{c as o,a as t,o as n}from"./D1e5ipGE.js";const s={};function a(c,e){return n(),o("div",null,[...e[0]||(e[0]=[t("h1",null,"Архивы",-1)])])}const _=r(s,[["render",a]]);export{_ as default};

@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary-blue: #3d497b;
+  --color-navy: #314c75;
+  --color-gray-blue: #6a7b8f;
+  --color-terracotta: #c87b5f;
+  --color-terracotta-pale: #d4a46a;
+  --color-cream: #e8ddcc;
+
+  /* Fonts */
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-manrope: "Manrope", sans-serif;
+
+  /* Font Sizes */
+  --text-header-nav: clamp(1.5rem, 4vw, 2.5rem);
+  --text-title: clamp(1.75rem, 5vw, 2.5rem);
+  --text-body: clamp(1rem, 2vw, 1.125rem);
+
+  /* Spacing */
+  --spacing-header-x: clamp(1rem, 8vw, 6.25rem);
+  --spacing-header-y: clamp(1rem, 3vw, 1.875rem);
+  --spacing-section-gap: clamp(1.5rem, 5vw, 4.375rem);
+  --spacing-title-gap: clamp(2rem, 6vw, 4.375rem);
+
+  /* Max Widths */
+  --max-width-content: 83.75rem;
+  --max-width-text-column: 70rem;
+  --max-width-title: 43.5rem;
+  --max-width-image-caption: 18rem;
+}
+
+@layer components {
+  .lecture-container {
+    @apply max-w-text-column mx-auto px-4 py-8 lg:py-12;
+  }
+  .lecture-content {
+    @apply text-justify;
+  }
+  .lecture-title {
+    @apply font-cormorant font-bold text-primary-blue text-title mb-4;
+  }
+  .lecture-h2 {
+    @apply font-cormorant font-bold text-2xl lg:text-3xl text-navy mb-title-gap;
+  }
+  .lecture-h3 {
+    @apply font-cormorant font-bold text-xl lg:text-2xl text-navy mt-8 mb-4;
+  }
+  .lecture-h4 {
+    @apply font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3;
+  }
+  .lecture-text {
+    @apply font-manrope text-gray-blue text-body leading-normal mb-0;
+  }
+  .lecture-text-bold {
+    @apply font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0;
+  }
+  .list-ordered {
+    @apply list-decimal ml-6 md:ml-8 font-manrope text-gray-blue text-body space-y-2;
+  }
+  .list-unordered {
+    @apply list-disc ml-6 md:ml-8 font-manrope text-gray-blue text-body space-y-1;
+  }
+  .breadcrumb-nav {
+    @apply mb-6 font-manrope text-sm text-gray-blue;
+  }
+  .homework-title {
+    @apply font-cormorant font-bold italic text-xl lg:text-2xl text-terracotta mb-6;
+  }
+}

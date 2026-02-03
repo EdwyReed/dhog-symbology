@@ -44,6 +44,6 @@ const isActive = computed(() => route.path.includes(props.to))
 
 <style scoped>
 .active {
-  text-shadow: 2px 2px 5px theme('colors.terracotta');
+  text-shadow: 2px 2px 5px var(--color-terracotta);
 }
 </style>

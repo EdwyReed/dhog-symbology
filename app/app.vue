@@ -1,15 +1,10 @@
 <template>
   <div class="relative min-h-screen">
-    <!-- Fixed background with paper texture -->
     <div class="fixed inset-0 bg-cream pointer-events-none">
-      <!-- Rotated paper texture with blend mode -->
       <div class="absolute flex h-screen items-center justify-center left-0 top-0 w-screen paper-texture"></div>
-
-      <!-- Vignette effect -->
       <div class="absolute inset-0 vignette-effect"></div>
     </div>
 
-    <!-- Content with relative positioning -->
     <div class="relative z-10">
       <NuxtLayout>
         <NuxtPage />

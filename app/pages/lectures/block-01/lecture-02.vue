@@ -1,7 +1,6 @@
 <template>
-  <div class="max-w-text-column mx-auto px-4 py-8 lg:py-12">
-    <!-- Breadcrumb Navigation -->
-    <nav class="mb-6 font-manrope text-sm text-gray-blue">
+  <div class="lecture-container">
+    <nav class="breadcrumb-nav">
       <NuxtLink to="/lectures" class="hover:text-terracotta">Лекции</NuxtLink>
       <span class="mx-2">/</span>
       <span class="text-navy font-semibold">Вводный блок</span>
@@ -9,20 +8,15 @@
       <span class="text-navy font-semibold">Лекция 2</span>
     </nav>
 
-    <!-- Lecture Content -->
     <article class="lecture-content text-justify">
-      <!-- Title -->
-      <h1 class="font-cormorant font-bold text-primary-blue text-title mb-4">
+      <h1 class="lecture-title">
         Вводный блок. 2 лекция
       </h1>
-
-      <!-- Subtitle -->
-      <h2 class="font-cormorant font-bold text-2xl lg:text-3xl text-navy mb-title-gap">
+      <h2 class="lecture-h2">
         Виды символов
       </h2>
 
-      <!-- Opening -->
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Приветствую всех на второй вводной лекции!</span>
         — мужчина громко хлопнул в ладоши, закидывая ноги на преподавательский стол. Сегодня ему ленно шевелиться, а вот мел уже выписывает на доске название лекции. —
         <span class="font-extrabold">— На прошлой лекции мы с вами кратенько…</span>
@@ -30,182 +24,181 @@
         <span class="font-extrabold">— Ладно, не кратенько, прошлись по основам символогии. Но это было необходимо! Вряд ли кто-то из вас любит, когда начинают липнуть без знакомства, вот и символы такие же… и то я вам многого не рассказал! Но ничего — будем всё постепенно навёрстывать.</span>
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Сегодня разберём виды символов. Чтобы вы перестали путать символ, знак и эмблему — и чтобы я перестал закатывать глаза каждый раз, когда вы называете герб «просто картинкой». Поверьте, были у меня такие младшие знакомые, повторять опыт не хочется,</span>
         — по-доброму рассмеялся, щёлкнул пальцами и та самая потрёпанная книга оказалась сегодня под его лентяйской рукой.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Кто-то хочет попробовать ответить, в чём же их разница?
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         В аудитории поднимаются руки.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— О, отлично. Вот вы, да. Смелость вижу, разум пока под вопросом,</span>
         — Сайлас кивает слизеринцу.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Символ… это то, что означает что-то важное,</span>
         — начинает тот. —
         <span class="font-extrabold">А знак… это… ну… обозначение. А эмблема… это…</span>
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Это когда вы устали говорить и решили спасаться паузами?</span>
         — мужчина мягко улыбается, явно сдерживая смешинку. —
         <span class="font-extrabold">Продолжайте, вы почти у цели.</span>
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Эмблема — это… знак, который принадлежит группе?</span>
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         — Уже лучше. Вы сейчас сказали почти правильную вещь. Я впечатлён!
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         С другой стороны когтевранка подаёт голос:
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Знак — это что-то понятное всем. А символ — это когда каждый понимает по-своему.</span>
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Прекрасно. И опасно,</span>
         — намёк на выкрик с места. — Я бы даже сказал: добро пожаловать на курс, — Сайлас щёлкает пальцами, и мел пылит на доске, оставляя три слова: СИМВОЛ, ЗНАК, ЭМБЛЕМА.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Итак, молодцы. А теперь закрепим, чтобы у нас не было путаницы:
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">Символ</span>
         — это вещь, образ, событие, действие или мотив, который несёт смысл больше самого себя. Он не просто заменяет предмет, а «говорит» через него о чём-то большем. Символ живёт за счёт ассоциаций и поэтому часто многослойный: один и тот же образ может раскрывать разные смыслы в разных контекстах.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">Знак</span>
         — это условная метка, которая нужна, чтобы быстро и ясно обозначить или сообщить что-то конкретное. Он может заменять предмет, действие, направление, предупреждение, событие. Главное: знак стремится к однозначности и удобству, а не к глубине.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">Эмблема</span>
         — это закреплённый за группой знак или символ, который выполняет функцию узнавания и принадлежности. Она фиксирует идентичность: факультета, рода, организации, сообщества. В отличие от символа, эмблема обычно не требует широкого толкования — она должна быть стабильной и узнаваемой.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Теперь, когда мы договорились о терминах, перейдём непосредственно к разделению по видам символов.
       </p>
       <br/>
-      <p class="font-manrope italic text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text italic">
         Важно понять одну вещь: символы можно делить по-разному. И это не ошибка и не путаница — просто у символа есть несколько сторон.
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Сегодня мы будем делить символы по четырём основаниям:
       </p>
       <br/>
-      <ol class="list-decimal ml-6 md:ml-8 font-manrope text-gray-blue text-body space-y-1">
+      <ol class="list-ordered">
         <li><span class="font-bold">Символы по форме</span></li>
         <li><span class="font-bold">Символы по носителю</span></li>
         <li><span class="font-bold">Символы по функции</span></li>
         <li><span class="font-bold">Символы по степени универсальности</span></li>
       </ol>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Сразу предупреждаю: одно и то же может одновременно относиться к нескольким разделам. Например, гербы факультетов Хогвартса — идеальный пример того, как один символ может жить сразу в нескольких классификациях. Мы воспринимаем их как визуальные образы, по носителю это чистая геральдика, по функции — узнавание и принадлежность. А по универсальности такие символы чаще культурные. Не пугайтесь: это не путаница, это нормальное состояние символа. Они вообще не любят сидеть в одной клетке.
       </p>
 
-      <!-- Section 1: Символы по форме -->
-      <h3 class="font-cormorant font-bold text-xl lg:text-2xl text-navy mt-8 mb-4">
+      <h3 class="lecture-h3">
         1. Символы по форме
       </h3>
 
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Начнём с самого простого: с формы. То есть с того, как именно символ существует и как мы его воспринимаем. Глазами, слухом, словом, жестом — неважно. Важно другое: форма влияет на то, как символ работает.</span>
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         1.1. Визуальные символы (изобразительные)
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Это символы, которые читаются как образ: предмет, животное, цвет, композиция, узор, силуэт.<br/>
         Сюда относятся гербы, витражи, росписи, фрески, резьба по камню, украшения на дверях и воротах, оформление залов.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">феникс</span>. Даже если вы не знаете ни одного трактата, образ феникса уже вызывает идеи: возрождение, огонь, жизнь после конца, верность своему пути.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         1.2. Графические символы (начертательные)
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Это символы, которые существуют как условное изображение: руна, знак, печать, схема, сигил.<br/>
         Они обычно компактнее и минималистичнее, чем визуальные образы, но именно поэтому их чаще используют в практике: их удобно воспроизводить, закреплять и вплетать в заклинания.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">Дары Смерти</span>. Треугольник, круг и линия выглядят как простая геометрия. Но стоит узнать историю — и знак перестаёт быть «фигуркой». Он становится идеей: власть, выбор, цена, отношение к смерти.<br/>
         И обратите внимание: в зависимости от человека, этот символ может означать совершенно разные вещи — от мудрости до опасной одержимости.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         1.3. Вербальные символы (словесные)
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Да, слово тоже может быть символом — если оно работает не только как обозначение предмета, но как образ, который тянет за собой смысл.<br/>
         Иногда слово становится символом благодаря контексту: месту, истории, ситуации.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">Хогвартс</span>. Это, казалось бы, просто название школы, но в речи оно легко превращается в символ дома, принадлежности, взросления и даже личной судьбы.<br/>
         Или слово <span class="font-bold">выбор</span> — особенно в момент распределения. Оно перестаёт быть абстракцией и становится точкой, после которой жизнь каждого из нас идёт иначе.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         1.4. Звуковые символы
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Это не любая музыка, а звук, которому приписан устойчивый смысл.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">колокол</span> может быть знаком «на занятие!», а может быть символом перехода, судьбоносного момента, границы между «до» и «после». Думаю, некоторые из вас могли сталкиваться с последним, особенно, если смотрели магловские фильмы («Эта замечательная жизнь», «Омен», «Горбун из Нотр-Дама»)<br/>
         То же самое с ритмами, мотивами, даже интонациями.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         1.5. Телесные и жестовые символы
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Сюда относятся жесты, позы, ритуальные движения, метки на теле. Это язык, который часто понимается без слов — и именно поэтому он особенно силён.<br/>
         Жест может быть знаком в одном контексте и символом в другом.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">Тёмная метка</span>. Являясь одновременно и графическим, и телесным символом, первоочерёдно она — знак принадлежности и, в то же время, символ страха, принуждения, зависимости и выбора, сделанного однажды.<br/>
         Или более мирный пример: <span class="font-bold">поклон перед дуэлью</span>. Формально — часть процедуры, но по смыслу это символ признания правил, равенства, черты, которую нельзя переходить, если вы всё ещё называете это честным поединком.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         Кто-нибудь может привести пример, когда один и тот же жест является знаком в одном месте и символом в другом?
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Сайлас поднял палочку, стал водить ею вдоль передних парт и заметил за спиной одного слизеринца белокурую пуффендуйку. Их взгляды встретились и мужчина одним кивком дал понять, что ожидает от неё ответа.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Ну… например… когда человек снимает шляпу. Если просто в помещении — это… вежливость. А если на похоронах — это уже совсем другое.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Сайлас кивнул.
       </p>
       <br/>
@@ -225,306 +218,296 @@
         <span class="font-extrabold">— Вот на этом и держится разница. Не в движении, а в том, что за ним стоит.</span>
       </p>
 
-      <hr class="my-8 border-t-2 border-terracotta opacity-20" />
-
-      <!-- Section 2: Символы по носителю -->
-      <h3 class="font-cormorant font-bold text-xl lg:text-2xl text-navy mt-8 mb-4">
+      <h3 class="lecture-h3">
         2. Символы по носителю
       </h3>
 
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         <span class="font-extrabold">— Хорошо. С формой разобрались. Теперь давайте поговорим о том, где символ живёт. То есть на чём он закреплён: на щите, на камне, на коже, в тексте, в ритуале, в истории. Это важно, потому что носитель задаёт символу характер. Один и тот же символ на пергаменте и на воротах замка будет ощущаться совершенно по-разному.</span>
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         2.1. Геральдические символы
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Это всё, что связано с гербами: цвет поля, фигуры, животные, предметы, деление щита, девизы.<br/>
         Геральдика хороша тем, что она делает символ устойчивым: он должен быть узнаваемым, повторяемым и читаемым.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">гербы факультетов Хогвартса</span>.<br/>
         Лев, змея, орёл, барсук — это закреплённые образы, которые собирают вокруг себя смысл: характер, ценности, идею принадлежности.<br/>
         Причём чем дольше люди живут рядом с этими гербами, тем сильнее они становятся не просто эмблемой, а настоящим символом — потому что в них начинают вкладывать личный опыт.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         2.2. Архитектурные символы
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Это символы, впечатанные в пространство: замки, башни, мосты, ворота, лестницы, арки, окна, стены, коридоры, даже направление движения и расположение залов.<br/>
         Архитектура — особый случай: вы не можете «не участвовать» в ней. Вы в ней находитесь постоянно.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">Большой зал</span>.<br/>
         Это не просто помещение, где едят. Он символически устроен как центр школы: место, где все равны хотя бы в том, что сидят под одной крышей, и где общая жизнь видна всем.<br/>
         А теперь сравните это с <span class="font-bold">Запретным лесом</span>. Там пространство само по себе — символ испытания, страха.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         И отдельно: <span class="font-bold">порог</span>. Порог почти всегда означает переход. Даже если вы не философствуете, тело всё равно чувствует «до» и «после».
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         2.3. Алхимические символы
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         В алхимических рецептах символы бывают двух типов сразу:<br/>
         — обозначающие (что за вещество/операция)<br/>
         — и смысловые (какая идея или стадия превращения за этим стоит)
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Поэтому алхимический текст часто читается на двух языках: буквально и символически.<br/>
         Пример из знакомого вам: <span class="font-bold">Философский камень</span>. Можно воспринимать его как цель алхимии: сделать вещество, которое превращает металлы и даёт эликсир жизни. А можно как символ предельной трансформации: идеи, что материя и человек способны перейти в иное качество, если выдержат правильный путь.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         2.4. Магико-практические символы
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Это символы, встроенные в действие: амулеты, талисманы, защитные круги, печати, обереги, ритуальные схемы.<br/>
         Их особенность в том, что здесь символ не только "значит", но и работает как часть механизма.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">защитные чары и печати на дверях</span>.<br/>
         Если вы видите на входе начертание, которое ограничивает доступ, это уже не «картинка», а элемент магической системы, который выполняет функцию: удерживает, защищает и прочее.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Сюда же можно отнести многие сложные заклинания: от защитных линий вокруг места до заклинаний, которые держатся не на одном слове, а на структуре.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         2.5. Нарративные символы (в историях)
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Символ может жить не на камне и не на бумаге, а в сюжете. В легендах, сказках, хрониках, семейных историях.<br/>
         Иногда символом становится не предмет, а повторяющаяся ситуация.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">зеркало Еиналеж</span>. Оно важно не только как артефакт, но и как символ желания: того, что человек хочет больше всего — и того, чем легко себя поймать, загубить или возвысить.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         2.6. Сновидческие символы
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Сновидческий символ живёт в образе, который пришёл не из внешнего мира, а из внутреннего. И он редко бывает универсальным. Один и тот же предмет может значить разное для разных людей — потому что подпитан разными ассоциациями и разным опытом.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">Сон о закрытой двери, которую невозможно открыть.</span> Не обязательно страшный сон. Иногда он просто давит ощущением «мне туда надо, но нельзя». Такой образ часто становится символом запрета, внутреннего ограничения, тайны, к которой человек ещё не готов — или не хочет признать, что готов.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         И вот здесь золотое правило: сон читается не по одному образу, а по связке образов и по роли, которую образ играет в конкретном сне. И, конечно, по жизненной ситуации человека в этот момент.
       </p>
 
-      <hr class="my-8 border-t-2 border-terracotta opacity-20" />
-
-      <!-- Section 3: Символы по функции -->
-      <h3 class="font-cormorant font-bold text-xl lg:text-2xl text-navy mt-8 mb-4">
+      <h3 class="lecture-h3">
         3. Символы по функции
       </h3>
 
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Теперь разберём символы по функции. То есть по тому, зачем они вообще существуют в системе. Не как выглядят и не где живут, а что делают: объединяют, охраняют, регулируют, переводят человека из одного состояния в другое, сохраняют память.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Важно: функция не отменяет смысла, но она помогает понять, почему символ оказался именно там и почему он так хорошо прижился.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         3.1. Идентификационные
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Это символы, которые помогают распознать принадлежность: факультет, род, организация, школа, традиция.<br/>
         Они отвечают на вопрос: «кто ты?» или «с кем ты?»
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">цвета и гербы факультетов, значки, шарфы.</span> С практической точки зрения это просто удобно. Но в реальности это быстро становится символом характера, репутации и внутреннего выбора.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         3.2. Разграничительные и охранительные
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Это символы, которые устанавливают границу: «сюда можно/сюда нельзя», «это защищено», «это опасно», «это чужое». Они часто стоят на порогах, воротах, в переходах.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">защитные чары и печати на входах</span>, барьеры вокруг важных мест, ограничения в библиотеке, запреты на определённые зоны. Иногда символ работает как предупреждение, иногда как реальная преграда.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         3.3. Регулятивные (инструктивные)
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Это символы, которые управляют действием. Они задают порядок, структуру, правила выполнения. В магии это особенно важно, потому что не тот порядок иногда означает совсем другой результат.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">алхимические схемы и рецепты</span>, где значки обозначают не просто вещества, а последовательность операций. Или любая магическая запись, рецепт в зельеварении, расписание занятий.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         3.4. Посвятительные (переходные)
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Эти символы отмечают смену статуса: ПОшка → посвящённый, чужой → свой, новичок → полноправный участник.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">Распределяющая шляпа</span>. Она оформляет момент, после которого человек начинает принадлежать группе и сам это чувствует.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         3.5. Памятные и «хранительские»
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Символ — это контейнер памяти: родовая история, обещание, утрата, победа.<br/>
         Такой символ часто дорог не всем, а конкретному человеку или семье.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">Омут памяти</span>. Технически — артефакт, но по функции он хранительский: он удерживает то, что человек боится забыть или не может пережить иначе.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         Как думаете, почему один и тот же символ иногда используют и для охраны, и для памяти? Что в нём общего?
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Сначала тишина. Потом кто-то осторожно поднимает руку.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Потому что… память тоже нужно защищать?
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Отлично. Уже теплее,
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         — кивает Сайлас. —
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Ещё.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Другая студентка говорит увереннее:
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Потому что символ создаёт границу, отделяет важное от неважного.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Да. Вот это мне нравится,
       </p>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         — Сайлас слегка улыбается. —
       </p>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Граница. Это ключевое слово. Смотрите, охрана и память выглядят разными вещами: одна держит снаружи, другая держит внутри. А по сути обе отвечают на один вопрос: «что для тебя свято?»
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Несколько студентов переглядываются.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Защитная печать на двери говорит: «сюда нельзя», а памятный символ говорит: «это нельзя потерять».
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Он щёлкает пальцами, и на доске появляется слово: УДЕРЖАНИЕ.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Охрана удерживает границу, память удерживает смысл.
       </p>
       <br/>
-      <p class="font-manrope font-extrabold text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text-bold">
         — Поэтому в старых домах семейные портреты висят не только для красоты, а в некоторых родах фамильные кольца носят не только ради статуса. Символы охраняют то, что вы не хотите отдавать миру. И хранят то, что вы не хотите потерять в себе.
       </p>
 
-      <hr class="my-8 border-t-2 border-terracotta opacity-20" />
-
-      <!-- Section 4: Символы по степени универсальности -->
-      <h3 class="font-cormorant font-bold text-xl lg:text-2xl text-navy mt-8 mb-4">
+      <h3 class="lecture-h3">
         4. Символы по степени универсальности
       </h3>
 
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         И последний на сегодня способ деления: по степени универсальности. То есть насколько легко символ считывается без объяснений. Кому он «говорит сам», а кому нужен контекст, история, традиция или хотя бы нормальный разговор.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Важно уточнить сразу: универсальный не значит одинаковый для всех. Это значит, что большинству людей понятно: перед ними нечто значимое, даже если трактовки будут различаться.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         4.1. Универсальные
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Это образы, которые узнаются как символические почти в любой культуре: свет и тьма, вода и огонь, круг, путь, гора, ночь, рассвет.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Они работают потому, что опираются на базовый человеческий опыт.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         4.2. Культурные (традиционные)
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Эти символы понятны внутри конкретной традиции: исторической, магической, национальной, профессиональной. Без знания контекста человек может увидеть форму, но не считать смысл.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Пример: <span class="font-bold">геральдические значения</span>. Скажем, цвет, животное, предмет на гербе могут нести вполне определённые смыслы, но они считываются только теми, кто знаком с системой. Иначе это будет выглядеть просто как красивая композиция.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         4.3. Групповые
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Понятны конкретной общности: факультет, школа, закрытое общество, ремесленная гильдия.<br/>
         Здесь символ часто превращается в эмблему: потому что его закрепляют официально.
       </p>
 
-      <h4 class="font-cormorant font-semibold text-lg lg:text-xl text-navy mt-6 mb-3">
+      <h4 class="lecture-h4">
         4.4. Личные
       </h4>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Это символы, которые понятны одному человеку или очень узкому кругу. Часто они рождаются из опыта: из памяти, утраты, клятвы, страха, любви, стыда, надежды — чего угодно, что оставляет след.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         Сюда же относятся многие <span class="font-bold">сновидческие образы</span>: они могут выглядеть одинаково у разных людей, но значить разное — потому что подпитаны разными ассоциациями.
       </p>
       <br/>
-      <p class="font-manrope text-gray-blue text-body leading-normal mb-0">
+      <p class="lecture-text">
         — На сегодня всё, запишите домашку и можете быть свободны:
       </p>
 
-      <!-- Homework Section -->
       <div class="homework-section mt-12 text-left">
-        <h3 class="font-cormorant font-bold italic text-xl lg:text-2xl text-terracotta mb-6">
+        <h3 class="homework-title">
           Основное домашнее задание:
         </h3>
 
-        <ol class="list-decimal ml-6 md:ml-8 font-manrope text-gray-blue text-body space-y-4">
+        <ol class="list-ordered">
           <li class="mb-4">
             <span class="font-extrabold text-terracotta">до 6 баллов</span> — Выберите 1 готовый объект из списка:<br/>
             — Белый флаг<br/>
@@ -560,13 +543,12 @@
         </ol>
       </div>
 
-      <!-- Additional Homework Section -->
       <div class="homework-section mt-12 text-left">
-        <h3 class="font-cormorant font-bold italic text-xl lg:text-2xl text-terracotta mb-6">
+        <h3 class="homework-title">
           Дополнительное домашнее задание:
         </h3>
 
-        <ol class="list-decimal ml-6 md:ml-8 font-manrope text-gray-blue text-body space-y-4">
+        <ol class="list-ordered">
           <li class="mb-4">
             <span class="font-extrabold text-terracotta">до 20 баллов</span> — Эссе: «Символ, который я бы запретил(а)»<br/>
             Напишите текст от лица: сотрудника Министерства, простого студента или самого символа.<br/>
@@ -588,7 +570,6 @@
       </div>
     </article>
 
-    <!-- Prev/Next Navigation -->
     <nav class="mt-12 pt-8 border-t border-terracotta/20 flex justify-between">
       <NuxtLink
         to="/lectures/block-01/lecture-01"

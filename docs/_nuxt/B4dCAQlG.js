@@ -1,1 +1,0 @@
-import{_ as r}from"./DlAUqK2U.js";import{c as t,a as o,o as n}from"./D1e5ipGE.js";const a={};function s(c,e){return n(),t("div",null,[...e[0]||(e[0]=[o("h1",null,"Литература",-1)])])}const _=r(a,[["render",s]]);export{_ as default};

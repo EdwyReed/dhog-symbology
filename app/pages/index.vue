@@ -18,7 +18,6 @@ onBeforeMount(() => navigateTo('/welcome'))
 
 <template>
   <main v-if="false" class="symbology-welcome">
-    <!-- Background Layers -->
     <div class="paper-texture" aria-hidden="true"></div>
     <div class="atmosphere-swirls" aria-hidden="true">
       <div class="swirl swirl-left"></div>
@@ -26,7 +25,6 @@ onBeforeMount(() => navigateTo('/welcome'))
     </div>
 
     <div class="content-wrapper">
-      <!-- "Constellation" Title -->
       <h1 class="main-title">
         <div class="title-chars">
           <span class="char c1">С</span>
@@ -40,7 +38,6 @@ onBeforeMount(() => navigateTo('/welcome'))
           <span class="char c9">И</span>
           <span class="char c10">Я</span>
         </div>
-        <!-- Decorative linking lines (Simplified simulation of the constellation) -->
         <svg class="title-connections" viewBox="0 0 600 200" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
           <path d="M50 60 Q 100 120 150 70" class="connector" />
           <path d="M150 70 Q 200 20 250 80" class="connector" />
@@ -50,7 +47,6 @@ onBeforeMount(() => navigateTo('/welcome'))
         </svg>
       </h1>
 
-      <!-- Entry Point -->
       <nav class="portal-nav">
         <NuxtLink to="/welcome" class="entry-link">
           <div class="image-container">
@@ -64,7 +60,6 @@ onBeforeMount(() => navigateTo('/welcome'))
 </template>
 
 <style scoped>
-/* Core Layout */
 .symbology-welcome {
   position: relative;
   width: 100%;
@@ -78,7 +73,6 @@ onBeforeMount(() => navigateTo('/welcome'))
   font-family: 'Neucha', 'Amatic SC', sans-serif;
 }
 
-/* Backgrounds */
 .paper-texture {
   position: absolute;
   top: 0;
@@ -104,7 +98,6 @@ onBeforeMount(() => navigateTo('/welcome'))
   mix-blend-mode: multiply;
 }
 
-/* Simulated Swirls using gradients as fallback for assets */
 .swirl {
   position: absolute;
   width: 60vw;
@@ -126,7 +119,6 @@ onBeforeMount(() => navigateTo('/welcome'))
   transform: rotate(15deg);
 }
 
-/* Content Container */
 .content-wrapper {
   position: relative;
   z-index: 10;
@@ -140,12 +132,11 @@ onBeforeMount(() => navigateTo('/welcome'))
   gap: 3rem;
 }
 
-/* Typography Title */
 .main-title {
   position: relative;
   width: 100%;
   max-width: 600px;
-  height: 180px; /* Space for the "wave" of letters */
+  height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,7 +152,6 @@ onBeforeMount(() => navigateTo('/welcome'))
   z-index: 2;
 }
 
-/* "Constellation" Letter Positioning (Simulating the wavy layout) */
 .char {
   font-family: 'Ruslan Display', serif;
   font-size: 3rem;
@@ -175,7 +165,6 @@ onBeforeMount(() => navigateTo('/welcome'))
   .char { font-size: 4.5rem; }
 }
 
-/* Wave positioning offsets */
 .c1 { transform: translateY(-20px) rotate(-10deg); }
 .c2 { transform: translateY(10px) rotate(-5deg); }
 .c3 { transform: translateY(30px); }
@@ -187,7 +176,6 @@ onBeforeMount(() => navigateTo('/welcome'))
 .c9 { transform: translateY(30px) rotate(-10deg); }
 .c10 { transform: translateY(0px) rotate(-5deg); }
 
-/* SVG Lines */
 .title-connections {
   position: absolute;
   top: 0;
@@ -201,12 +189,10 @@ onBeforeMount(() => navigateTo('/welcome'))
 
 .connector {
   fill: none;
-  stroke: #C5A065; /* Gold/Bronze accent color */
+  stroke: #C5A065;
   stroke-width: 1.5;
   stroke-dasharray: 5, 5;
 }
-
-/* Navigation Entry */
 .entry-link {
   display: flex;
   flex-direction: column;
