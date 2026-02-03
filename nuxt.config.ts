@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   nitro: {
     output: {
-      publicDir: 'docs'
+      publicDir: 'docs',
     }
   }
 })
