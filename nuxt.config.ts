@@ -8,5 +8,8 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss(),
     ],
+  },
+  app: {
+    baseURL: process.env.NUXT_APP_BASE_URL || '/',
   }
 })
