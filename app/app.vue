@@ -34,6 +34,8 @@ useHead({
 </script>
 
 <style>
+@import url("~/assets/css/main.css");
+
 .paper-texture {
   background-image: url('/images/paper-texture.png');
   background-size: cover;
