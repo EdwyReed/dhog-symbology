@@ -9,5 +9,6 @@ export const introBlockLectures: Lecture[] = [
   { title: 'Виды символов', slug: 'lecture-02' },
   { title: 'Системы символов', slug: 'lecture-03' },
   { title: 'Интерпретация: чтение символа и его трактовка', slug: 'lecture-04' },
-  { title: 'Итоги вводного блока', slug: 'lecture-05' }
+  { title: 'Итоги вводного блока', slug: 'lecture-05' },
+  { title: 'Контрольная работа', slug: 'control-work' }
 ]

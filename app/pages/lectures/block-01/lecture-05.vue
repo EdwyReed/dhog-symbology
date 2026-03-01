@@ -308,6 +308,12 @@
       >
         ← Пред. лекция
       </NuxtLink>
+      <NuxtLink
+        to="/lectures/block-01/control-work"
+        class="font-manrope font-semibold text-terracotta hover:text-terracotta-pale ml-auto"
+      >
+        Контрольная работа →
+      </NuxtLink>
     </nav>
   </div>
 </template>
