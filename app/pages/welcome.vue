@@ -5,7 +5,7 @@
       Добро пожаловать в кабинет Символогии!
     </p>
 
-    <div class="flex flex-col lg:flex-row gap-8 max-w-content mx-auto px-4">
+    <div class="flex flex-col lg:flex-row gap-8 max-w-content mx-auto px-4 text-justify">
       <div class="font-manrope text-gray-blue text-body flex-1 lg:max-w-text-column">
         <p class="leading-normal mb-0">
           <span class="font-extrabold">Я — Сайлас Локк</span><span
@@ -42,8 +42,8 @@
           <span class="font-extrabold">Так что проходите.</span>
           <br/>
           <span class="font-extrabold">Осматривайтесь</span><span class="font-semibold">. </span><span
-          class="font-semibold underline">Обязательно загляните в раздел </span><span
-          class="font-semibold underline text-terracotta">«Правила»</span><span
+          class="font-semibold underline">Обязательно загляните в раздел </span><NuxtLink
+          to="/rules" class="font-semibold underline text-terracotta hover:text-primary-blue">«Правила»</NuxtLink><span
           class="font-semibold"> — он вам ещё пригодится. Потом смело переходите к лекциям и несите мне свои первые домашки и вопросы.</span>
         </p>
         <br/>
@@ -54,16 +54,16 @@
 
         <ul class="list-disc mb-0 ml-6 md:ml-8">
           <li class="mb-0">
-            <span class="font-semibold leading-normal text-terracotta">личной совой на ГФ</span>
+            <a href="https://dhog.org/ucp.php?i=pm&mode=compose&u=3362" target="_blank" class="font-semibold leading-normal text-terracotta hover:underline">личной совой на ГФ</a>
           </li>
           <li class="mb-0">
             <span class="font-semibold leading-normal text-terracotta">заглянуть в мой кабинет на ГФ</span>
           </li>
           <li class="mb-0">
-            <span class="font-semibold leading-normal text-terracotta">написать в Телеграм</span>
+            <a href="https://t.me/symlos" target="_blank" class="font-semibold leading-normal text-terracotta hover:underline">написать в Телеграм</a>
           </li>
           <li>
-            <span class="font-semibold leading-normal text-terracotta">отправить письмо на почту</span>
+            <a href="mailto:symbsylockk@gmail.com" class="font-semibold leading-normal text-terracotta hover:underline">отправить письмо на почту</a>
           </li>
         </ul>
 

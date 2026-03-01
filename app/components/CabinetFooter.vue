@@ -3,7 +3,7 @@
 <!--    TODO: change footer link to correct one -->
     <div class="flex items-center justify-center">
       <a
-        href="https://dhog.org/journal/subjects/48"
+        href="https://dhog.org/journal/subjects/38"
         class="footer-link small"
         target="_blank"
         rel="noopener noreferrer"
@@ -15,7 +15,7 @@
       </a>
 
       <a
-        href="https://dhog.org/ucp.php?i=pm&mode=compose&u=1221"
+        href="https://dhog.org/ucp.php?i=pm&mode=compose&u=3362"
         class="footer-link"
         target="_blank"
         rel="noopener noreferrer"
@@ -31,7 +31,7 @@
       </a>
 
       <a
-        href="https://dhog.org/chairs/5"
+        href="https://dhog.org/chairs/1"
         title="Пройти на кафедру"
         class="chair-link"
         target="_blank"
@@ -66,12 +66,17 @@
         </svg>
       </a>
 
-      <span class="footer-link disabled">
+      <a
+        href="https://dhog.org/ucp.php?i=-hogwarts-school-ucp-homework_module&mode=compose&sbid=38"
+        class="footer-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <svg class="footer-icon" viewBox="0 0 24 24" fill="currentColor">
           <path d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2ZM16 18H8V16H16V18ZM16 14H8V12H16V14ZM13 9V3.5L18.5 9H13Z"/>
         </svg>
         <span>Отправить домашнее задание</span>
-      </span>
+      </a>
 
       <a
         href="https://dhog.org/subjects"

@@ -1,7 +1,7 @@
 <template>
   <div class="py-8 lg:py-12">
     <div class="mx-auto text-center mb-12 lg:mb-16 px-4">
-      <p class="font-cormorant font-bold text-xl lg:text-4xl text-[#623c2f] leading-tight">
+      <p class="font-cormorant font-bold text-lg lg:text-2xl text-[#623c2f] leading-tight">
         Перед вами — блоки лекций по Символогии.<br />
         Пожалуйста, проходите их <span class="underline">строго по порядку</span>, начиная с <span class="italic">Вводного блока</span>.<br />
         Да, теория — зверюга ещё та. Но лучше нагрузить уши и мозг сейчас,<br />

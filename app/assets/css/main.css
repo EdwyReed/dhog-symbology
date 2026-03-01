@@ -25,8 +25,8 @@
   --spacing-title-gap: clamp(2rem, 6vw, 4.375rem);
 
   /* Max Widths */
-  --max-width-content: 83.75rem;
-  --max-width-text-column: 70rem;
+  --max-width-content: 85rem;
+  --max-width-text-column: 80rem;
   --max-width-title: 43.5rem;
   --max-width-image-caption: 18rem;
 }
