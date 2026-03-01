@@ -6,7 +6,7 @@
     <HeaderLink to="/archives" disabled>
       архивы
     </HeaderLink>
-    <HeaderLink to="/rules" disabled>
+    <HeaderLink to="/rules">
       правила
     </HeaderLink>
     <HeaderLink to="/lectures">лекции</HeaderLink>
