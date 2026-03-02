@@ -627,6 +627,8 @@
 </template>
 
 <script setup lang="ts">
+const lid = useState<number | null>('lid')
+lid.value = 978
 useHead({
   title: 'Интерпретация: чтение символа и его трактовка - Симвология'
 })

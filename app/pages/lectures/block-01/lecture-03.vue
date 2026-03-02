@@ -418,6 +418,8 @@
 </template>
 
 <script setup lang="ts">
+const lid = useState<number | null>('lid')
+lid.value = 977
 useHead({
   title: 'Системы символов - Симвология'
 })

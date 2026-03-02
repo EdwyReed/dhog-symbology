@@ -319,6 +319,8 @@
 </template>
 
 <script setup lang="ts">
+const lid = useState<number | null>('lid')
+lid.value = 979
 useHead({
   title: 'Итоги вводного блока - Симвология'
 })

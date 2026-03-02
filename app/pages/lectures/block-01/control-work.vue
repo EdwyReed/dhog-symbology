@@ -285,6 +285,8 @@
 </template>
 
 <script setup lang="ts">
+const lid = useState<number | null>('lid')
+lid.value = 980
 useHead({
   title: 'Контрольная работа - Симвология'
 })

@@ -67,7 +67,7 @@
       </a>
 
       <a
-        href="https://dhog.org/ucp.php?i=-hogwarts-school-ucp-homework_module&mode=compose&sbid=38"
+        :href="`https://dhog.org/ucp.php?i=-hogwarts-school-ucp-homework_module&mode=compose&sbid=38${lid ? '&lid=' + lid : ''}`"
         class="footer-link"
         target="_blank"
         rel="noopener noreferrer"
@@ -96,6 +96,7 @@
 </template>
 
 <script setup lang="ts">
+const lid = useState<number | null>('lid')
 </script>
 
 <style scoped>
