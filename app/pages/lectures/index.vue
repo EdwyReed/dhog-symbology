@@ -11,13 +11,16 @@
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 max-w-6xl mx-auto px-4">
-      <LectureBlocksIntroBlock title-image="/images/lectures/intro-title.png" />
-      <LectureBlocksYear1Block title-image="/images/lectures/year1-title.png" />
-      <LectureBlocksYear3Block title-image="/images/lectures/year3-title.png" />
-      <LectureBlocksYear5Block title-image="/images/lectures/year5-title.png" />
+      <LectureBlocksIntroBlock title-image="/images/lectures/intro-title.jpg" />
+      <LectureBlocksYear1Block title-image="/images/lectures/year1-title.jpg" />
+      <LectureBlocksYear3Block title-image="/images/lectures/year3-title.jpg" />
+      <LectureBlocksYear5Block title-image="/images/lectures/year5-title.jpg" />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+useHead({
+  title: 'Лекции - Симвология'
+})
 </script>

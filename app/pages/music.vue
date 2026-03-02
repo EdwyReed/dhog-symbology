@@ -5,6 +5,9 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  title: 'Музыка - Симвология'
+})
 </script>
 
 <style scoped>

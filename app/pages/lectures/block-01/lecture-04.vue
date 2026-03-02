@@ -197,18 +197,20 @@
       <br/>
       <div class="overflow-x-auto">
         <table class="w-full text-center font-manrope text-body mb-4">
-          <tr class="font-bold italic">
-            <td class="p-2">Barathrum</td>
-            <td class="p-2">Dictum</td>
-            <td class="p-2">Speculum</td>
-            <td class="p-2">Mandatum</td>
-          </tr>
-          <tr>
-            <td class="p-2 font-extrabold">Обязательство</td>
-            <td class="p-2 font-extrabold">Функция</td>
-            <td class="p-2 font-extrabold">Связь</td>
-            <td class="p-2 font-extrabold">Право, принадлежность</td>
-          </tr>
+          <tbody>
+            <tr class="font-bold italic">
+              <td class="p-2">Barathrum</td>
+              <td class="p-2">Dictum</td>
+              <td class="p-2">Speculum</td>
+              <td class="p-2">Mandatum</td>
+            </tr>
+            <tr>
+              <td class="p-2 font-extrabold">Обязательство</td>
+              <td class="p-2 font-extrabold">Функция</td>
+              <td class="p-2 font-extrabold">Связь</td>
+              <td class="p-2 font-extrabold">Право, принадлежность</td>
+            </tr>
+          </tbody>
         </table>
       </div>
       <br/>

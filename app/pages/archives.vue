@@ -5,6 +5,9 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  title: 'Архивы - Симвология'
+})
 </script>
 
 <style scoped>
