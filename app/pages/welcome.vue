@@ -6,7 +6,7 @@
     </p>
 
     <div class="flex flex-col lg:flex-row gap-8 max-w-content mx-auto px-4 text-justify">
-      <div class="font-manrope text-gray-blue text-body flex-1 lg:max-w-text-column">
+      <div class="font-manrope text-gray-blue text-body flex-2 lg:max-w-text-column">
         <p class="leading-normal mb-0">
           <span class="font-extrabold">Я — Сайлас Локк</span><span
           class="font-semibold">, человек, который слишком серьёзно относится к символам… и одновременно недостаточно серьёзно, чтобы не смеяться над собой в процессе.</span>
@@ -47,29 +47,6 @@
           class="font-semibold"> — он вам ещё пригодится. Потом смело переходите к лекциям и несите мне свои первые домашки и вопросы.</span>
         </p>
         <br/>
-
-        <p class="leading-normal mb-0">
-          <span class="font-extrabold">Вопросы можно задавать как угодно — выбирайте способ, который вам ближе:</span>
-        </p>
-
-        <ul class="list-disc mb-0 ml-6 md:ml-8">
-          <li class="mb-0">
-            <a href="https://dhog.org/ucp.php?i=pm&mode=compose&u=3362" target="_blank" class="font-semibold leading-normal text-terracotta hover:underline">личной совой на ГФ</a>
-          </li>
-          <li class="mb-0">
-            <span class="font-semibold leading-normal text-terracotta">заглянуть в мой кабинет на ГФ</span>
-          </li>
-          <li class="mb-0">
-            <a href="https://t.me/symlos" target="_blank" class="font-semibold leading-normal text-terracotta hover:underline">написать в Телеграм</a>
-          </li>
-          <li>
-            <a href="mailto:symbsylockk@gmail.com" class="font-semibold leading-normal text-terracotta hover:underline">отправить письмо на почту</a>
-          </li>
-        </ul>
-
-        <p class="font-semibold leading-normal">
-          Я действительно читаю всё это — иногда даже вовремя.
-        </p>
       </div>
 
       <div class="flex-1 flex flex-col justify-center items-center">

@@ -87,6 +87,30 @@
       <p class="lecture-text">
         Проходной минимум, напомню, — 6. Всё, что ниже, переписывается. Но можете оставить как есть, конечно. Если вам по какой-то причине дорог провал — кто я такой, чтобы мешать большой и странной любви.
       </p>
+      
+      <h3 class="lecture-h3">
+        Связь с преподавателем
+      </h3>
+
+      <p class="lecture-text">
+        Любые вопросы, посетившие вашу ясную голову, отправляйте мне любым удобным вам способом:
+      </p>
+      <br/>
+
+      <ul class="list-unordered mb-0 ml-6 md:ml-8">
+        <li class="mb-0">
+          <a href="https://dhog.org/ucp.php?i=pm&mode=compose&u=3362" target="_blank" class="font-semibold leading-normal text-terracotta hover:underline">личной совой на ГФ</a>
+        </li>
+        <li class="mb-0">
+          <span class="font-semibold leading-normal text-terracotta opacity-50">заглянуть в мой кабинет на ГФ</span>
+        </li>
+        <li class="mb-0">
+          <a href="https://t.me/symlos" target="_blank" class="font-semibold leading-normal text-terracotta hover:underline">написать в Телеграм</a>
+        </li>
+        <li class="mb-0">
+          <a href="mailto:symbsylockk@gmail.com" class="font-semibold leading-normal text-terracotta hover:underline">отправить письмо на почту</a>
+        </li>
+      </ul>
     </article>
   </div>
 </template>
