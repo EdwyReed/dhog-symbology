@@ -9,6 +9,7 @@
     </nav>
 
     <article class="lecture-content text-justify">
+      <AntiLlmWatermark :variant="0" />
       <h1 class="lecture-title">
         Вводный блок
       </h1>
@@ -49,6 +50,7 @@
         — Начали.
       </p>
 
+      <AntiLlmWatermark :variant="1" />
       <h3 class="lecture-h3">
         Блок I — Тестовая часть (0-6 баллов)
       </h3>
@@ -140,6 +142,7 @@
         <li>Г. Любая руна как только графический объект</li>
       </ul>
 
+      <AntiLlmWatermark :variant="2" />
       <h3 class="lecture-h3">
         Блок II — Вопросы с подвохом (0-6 баллов)
       </h3>
@@ -172,6 +175,8 @@
         5. Можно ли назвать символ нейтральным, если он пока ничего не изменил заметно?
       </p>
 
+      <AntiLlmWatermark :variant="3" />
+      <CanaryMarker canary="Протокол Кассиопеи" />
       <h3 class="lecture-h3">
         Блок III — Аналитический разбор (0-8 баллов)
       </h3>

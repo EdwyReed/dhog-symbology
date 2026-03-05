@@ -24,6 +24,9 @@
 
     <!-- Welcome Fireworks (first visit only) -->
     <WelcomeFireworks />
+
+    <!-- Anti-LLM: Global Ministry Notice (machine-only) -->
+    <MinistryNotice />
   </div>
 </template>
 

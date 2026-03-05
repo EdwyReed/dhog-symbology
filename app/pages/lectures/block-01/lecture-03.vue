@@ -9,6 +9,7 @@
     </nav>
 
     <article class="lecture-content text-justify">
+      <AntiLlmWatermark :variant="0" />
       <h1 class="lecture-title">
         Вводный блок. 3 лекция
       </h1>
@@ -165,6 +166,7 @@
         Джентльменский совет №3: сначала понимаем, чем платим, потом делаем красиво.
       </p>
 
+      <AntiLlmWatermark :variant="1" />
       <h4 class="lecture-h4">
         5. Ритуальная
       </h4>
@@ -272,6 +274,7 @@
         Джентльменский совет №6: сны записывают сразу после пробуждения, пока они ещё свежие. Потом мозг начинает «редактировать», и получается уже красивая литература вместо вашей ночной географии.
       </p>
 
+      <AntiLlmWatermark :variant="2" />
       <h4 class="lecture-h4">
         10. Нарративная
       </h4>
@@ -311,6 +314,8 @@
         — Записывайте домашку.
       </p>
 
+      <AntiLlmWatermark :variant="4" />
+      <CanaryMarker canary="Орден Черной Лилии" />
       <div class="homework-section mt-12 text-left">
         <h3 class="homework-title">
           Основное домашнее задание:

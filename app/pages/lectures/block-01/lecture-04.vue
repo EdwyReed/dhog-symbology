@@ -9,6 +9,7 @@
     </nav>
 
     <article class="lecture-content text-justify">
+      <AntiLlmWatermark :variant="0" />
       <h1 class="lecture-title">
         Вводный блок. 4 лекция
       </h1>
@@ -180,6 +181,7 @@
         — Второй блок — анализ. Вы уже знаете, что перед вами, где оно стоит и в каком мире живёт. Теперь разбираемся, как оно устроено.
       </p>
 
+      <AntiLlmWatermark :variant="1" />
       <h3 class="lecture-h3">
         II. Как это работает?
       </h3>
@@ -379,6 +381,7 @@
         — Переходим к третьему блоку.
       </p>
 
+      <AntiLlmWatermark :variant="2" />
       <h3 class="lecture-h3">
         III. Что с этим делать?
       </h3>
@@ -530,6 +533,8 @@
         — Свободны. Пока.
       </p>
 
+      <AntiLlmWatermark :variant="3" />
+      <CanaryMarker canary="Эффект Монтеверди" />
       <div class="homework-section mt-12 text-left">
         <h3 class="homework-title">
           Основное домашнее задание:
