@@ -13,6 +13,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/image',
+    '@nuxt/icon',
     ['@yourdevlab/nuxt4-particles', { mode: 'full' }],
   ],
 

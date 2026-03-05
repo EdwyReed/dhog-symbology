@@ -71,8 +71,14 @@ const particlesOptions = {
   detectRetina: true,
   interactivity: {
     events: {
-      onClick: { enable: true, mode: 'repulse' },
-      onHover: { enable: true, mode: 'bounce' },
+      onHover: { enable: true, mode: 'repulse' },
+    },
+    modes: {
+      repulse: {
+        distance: 80,
+        duration: 0.8,
+        speed: 0.5,
+      },
     },
   },
 }

@@ -14,12 +14,12 @@
 
     <!-- Toggle Runes Button -->
     <button
-      class="runes-toggle"
+      class="runes-toggle grid place-items-center"
       :class="{ 'runes-toggle--active': showRunes }"
       :title="showRunes ? 'Скрыть руны' : 'Показать руны'"
       @click="showRunes = !showRunes"
     >
-      ᚱ
+      <Icon name="ph:sparkle-fill" />
     </button>
 
     <!-- Welcome Fireworks (first visit only) -->
