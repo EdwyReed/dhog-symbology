@@ -15,10 +15,10 @@
 const STORAGE_KEY = 'dhog-welcomed'
 const showFireworks = ref(false)
 
-const FIREWORK_COUNT = 34
+const FIREWORK_COUNT = 20
 const FIREWORK_DELAY = 0.3
 const PARTICLE_FADE_TIME = 3500
-const TOTAL_DURATION = FIREWORK_COUNT * FIREWORK_DELAY * 1000 + PARTICLE_FADE_TIME + 2000
+const TOTAL_DURATION = FIREWORK_COUNT * FIREWORK_DELAY * 1000 + PARTICLE_FADE_TIME + 1000
 
 const fireworksOptions = {
   preset: 'fireworks',
