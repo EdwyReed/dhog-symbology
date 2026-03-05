@@ -3,6 +3,7 @@
     <div class="fixed inset-0 bg-cream pointer-events-none">
       <div class="absolute flex h-screen items-center justify-center left-0 top-0 w-screen paper-texture"></div>
       <div class="absolute inset-0 vignette-effect"></div>
+      <FloatingRunes v-if="showRunes" />
     </div>
 
     <div class="relative z-10">
@@ -10,10 +11,25 @@
         <NuxtPage />
       </NuxtLayout>
     </div>
+
+    <!-- Toggle Runes Button -->
+    <button
+      class="runes-toggle"
+      :class="{ 'runes-toggle--active': showRunes }"
+      :title="showRunes ? 'Скрыть руны' : 'Показать руны'"
+      @click="showRunes = !showRunes"
+    >
+      ᚱ
+    </button>
+
+    <!-- Welcome Fireworks (first visit only) -->
+    <WelcomeFireworks />
   </div>
 </template>
 
 <script setup lang="ts">
+const showRunes = ref(true)
+
 useHead({
   link: [
     {
@@ -47,5 +63,34 @@ useHead({
 
 .vignette-effect {
   box-shadow: inset 0 0 clamp(10rem, 20vw, 15.625rem) 0 rgba(192, 160, 111, 0.7);
+}
+
+.runes-toggle {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 50;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-primary-blue);
+  background-color: var(--color-cream);
+  color: var(--color-primary-blue);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s, transform 0.3s, background-color 0.3s;
+}
+
+.runes-toggle:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.runes-toggle--active {
+  background-color: var(--color-primary-blue);
+  color: var(--color-cream);
 }
 </style>

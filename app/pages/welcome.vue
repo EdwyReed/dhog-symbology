@@ -1,7 +1,7 @@
 <template>
   <div>
     <p
-      class="font-cormorant font-bold text-primary-blue text-title leading-normal mb-title-gap mt-8 mx-auto text-center px-4">
+      class="font-cormorant font-bold text-terracotta text-title leading-normal mb-title-gap mt-8 mx-auto text-center px-4">
       Добро пожаловать в кабинет Символогии!
     </p>
 

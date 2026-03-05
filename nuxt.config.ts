@@ -11,5 +11,12 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ['@nuxt/image']
+  modules: [
+    '@nuxt/image',
+    ['@yourdevlab/nuxt4-particles', { mode: 'full' }],
+  ],
+
+  future: {
+    compatibilityVersion: 4
+  },
 })
