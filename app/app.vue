@@ -3,7 +3,11 @@
     <div class="fixed inset-0 bg-cream pointer-events-none">
       <div class="absolute flex h-screen items-center justify-center left-0 top-0 w-screen paper-texture"></div>
       <div class="absolute inset-0 vignette-effect"></div>
-      <FloatingRunes v-if="showRunes" />
+    </div>
+
+    <!-- Runes layer: absolute, spans full document height, scrolls naturally -->
+    <div v-if="showRunes" class="runes-layer">
+      <FloatingRunes />
     </div>
 
     <div class="relative z-10">
@@ -95,5 +99,13 @@ useHead({
 .runes-toggle--active {
   background-color: var(--color-primary-blue);
   color: var(--color-cream);
+}
+
+.runes-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
 }
 </style>

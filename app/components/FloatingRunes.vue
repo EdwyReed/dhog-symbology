@@ -17,13 +17,13 @@ const particlesOptions = {
   fpsLimit: 60,
   particles: {
     number: {
-      value: 10,
+      value: 20,
       density: {
         enable: true,
       },
     },
     opacity: {
-      value: { min: 0.8, max: 0.9 },
+      value: { min: 0.6, max: 0.7 },
       animation: {
         enable: true,
         speed: 0.3,
@@ -34,16 +34,16 @@ const particlesOptions = {
       },
     },
     size: {
-      value: { min: 20, max: 30 },
+      value: { min: 10, max: 20 },
     },
     move: {
       enable: true,
-      speed: { min: 0.3, max: 0.8 },
-      direction: 'none' as const,
+      speed: { min: 0.1, max: 0.3 },
+      direction: 'random' as const,
       random: true,
       straight: false,
       outModes: {
-        default: 'bounce' as const,
+        default: 'out' as const,
       },
     },
     rotate: {
@@ -93,3 +93,4 @@ function onParticlesLoaded(container: Container) {
   pointer-events: none;
 }
 </style>
+
