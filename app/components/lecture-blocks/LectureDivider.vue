@@ -1,5 +1,18 @@
 <template>
+  <NuxtLink
+    v-if="path"
+    :to="path"
+    class="block"
+  >
+    <p
+      class="font-cormorant font-bold italic text-lg lg:text-2xl bg-clip-text text-transparent my-2 hover:opacity-80 transition-opacity"
+      :class="gradientClass"
+    >
+      {{ text }}
+    </p>
+  </NuxtLink>
   <p
+    v-else
     class="font-cormorant font-bold italic text-lg lg:text-2xl bg-clip-text text-transparent my-2"
     :class="gradientClass"
   >
@@ -11,6 +24,7 @@
 interface Props {
   text: string
   variant?: 'control' | 'practical'
+  path?: string
 }
 
 const props = withDefaults(defineProps<Props>(), {

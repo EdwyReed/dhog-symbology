@@ -1,6 +1,5 @@
 <template>
   <footer class="py-6">
-<!--    TODO: change footer link to correct one -->
     <div class="flex items-center justify-center">
       <a
         href="https://dhog.org/journal/subjects/38"
