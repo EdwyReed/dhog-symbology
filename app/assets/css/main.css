@@ -1,6 +1,15 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Denistina';
+  src: url('~/assets/fonts/denistina_en.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
+  --font-denistina: 'Denistina', serif;
   /* Colors */
   --color-primary-blue: #3d497b;
   --color-navy: #314c75;
@@ -69,6 +78,10 @@
   }
   .homework-title {
     @apply font-cormorant font-bold text-[28px] lg:text-[32px] text-terracotta mb-6;
+  }
+  .board-word {
+    @apply font-denistina text-[clamp(1.5rem,3vw,2.25rem)] leading-tight text-center;
+    color: var(--color-navy);
   }
 }
 
